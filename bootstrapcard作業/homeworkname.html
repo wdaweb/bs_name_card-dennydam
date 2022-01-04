@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap - 通用類別</title>
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <style>
+    .card-footer {
+      padding: 0rem 0.5rem;
+      background-color: rgba(0, 0, 0, 0.03);
+      border-top: 1px solid rgba(0, 0, 0, 0.125);
+    }
+
+    .list-unstyled {
+      padding-top: 3rem;
+    }
+
+
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-37%, -50%)
+    }
+
+
+    .dd {
+      position: absolute;
+      bottom: -5px;
+      left: -30px;
+
+    }
+
+    .cc {
+
+      position: absolute;
+      top: -8px;
+      right: -30px;
+
+    }
+
+    .card-title {
+      color: rgb(39, 39, 161);
+    }
+
+    .card-text {
+      font-style: italic;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+
+    <div class="card mb-3" style="max-width:800px;">
+      <div class="row g-0">
+        <div class=" col-md-4 position-relative ">
+          <div class="d-none d-md-block position-absolute dd "><img class="img1" src="./cardtriangle.png"></div>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-d0AXtINmbSW9Ln1mpkfP5dcauBfTINtrSw&usqp=CAU"
+            class="img-fluid" style="width:100%;height:100%;object-fit:center;">
+
+        </div>
+        <div class="col-md-8 position-relative">
+          <div class="d-none d-md-block position-absolute cc "><img class="img2" src="./triangle2.png"></div>
+          <div class="card-body">
+            <h4 class="card-title">Front-end Disigner</h4>
+            <h2 class="card-text"> Deng Wei </h2>
+
+
+            <ul class="list-unstyled">
+              <li>住址:新北市泰山區貴子里致遠新村55之1號</li>
+              <li>電話:0989159555</li>
+              <li>Email:a0989159555@gmail.com</li>
+            </ul>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- <div class="card" style="width: 18rem;">
+    <img src="https://picsum.photos/id/684/150/30" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+        content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div> -->
+
+  <!-- <div class="container">
+    <h2>水平卡片</h2>
+    <p>card 也可以使用網格來建立水平式卡片，例如設計最小尺寸排列，其他尺寸排列的卡片。.g-0 移除網格的 gutter。</p>
+    <div class="card mb-3" style="max-width: 800px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="https://picsum.photos/800/600/?random=1" class="img-fluid rounded-start"
+            style="width:100%;height:100%;object-fit:cover">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit
+              longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+
+
+
+
+
+
+  <script src="./js/bootstrap.bundle.js"></script>
+
+  </script>
+</body>
+
+</html>
